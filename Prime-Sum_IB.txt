@@ -10,8 +10,6 @@ bool isPrime(int A){
     return true;
 }
 
-
-
 vector<int> Solution::primesum(int A) {
     vector <int> ans;
     ans.reserve(2);
