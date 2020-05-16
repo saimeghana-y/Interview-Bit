@@ -1,2 +1,3 @@
 # Interveiw-Bit
-codes
+
+**Solutions** for *Interveiw Bit* problems
