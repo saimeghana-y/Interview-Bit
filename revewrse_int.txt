@@ -1,0 +1,12 @@
+int Solution::reverse(int A) {
+    int rev=0,l,t;
+    while(A!=0){
+        l=A%10;
+        t=l+rev*10;
+        if(t/10 != rev)
+        return 0;
+        rev=t;
+        A=A/10;
+    }
+    return rev;
+}
