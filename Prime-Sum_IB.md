@@ -1,6 +1,4 @@
-#Prime Sum Solution IB
 
-''' C++
 bool isPrime(int A){
     if(A<=1) return false;
     if(A==2) return true;
@@ -26,4 +24,3 @@ vector<int> Solution::primesum(int A) {
     }
     return ans;
 }
-'''
